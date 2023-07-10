@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class km_to_miles {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int km = sc.nextInt();
+        double miles = km*0.62137119;
+        System.out.println(miles);
+        sc.close();
+    }
+}
