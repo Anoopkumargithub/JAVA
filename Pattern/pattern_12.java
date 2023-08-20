@@ -1,4 +1,4 @@
-public class pattern_11 {
+public class pattern_12 {
     public static void main(String[] args) {
         int n=5;
         int row=1;
@@ -10,7 +10,7 @@ public class pattern_11 {
                 //space change the shape of pattern
             }for(int i=0;i<nst;i++){
                 if(i%2!=0){
-                    System.out.print("  ");
+                    System.out.print("! ");
                 }else{
                     System.out.print("* ");
                 }
